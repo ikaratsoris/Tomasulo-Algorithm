@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Thanos/Documents/Xilinx Projects/Processor/Test_RS_Logic_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="test_rs_logic" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/test_rs_logic/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/rs_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_we</obj_property>
+      <obj_property name="ObjectShortName">rs_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/cdb_v" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cdb_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cdb_v[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/cdb_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cdb_q[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cdb_q[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/issue_op" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">issue_op[3:0]</obj_property>
+      <obj_property name="ObjectShortName">issue_op[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/issue_tag" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">issue_tag[4:0]</obj_property>
+      <obj_property name="ObjectShortName">issue_tag[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/rf_vj" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_vj[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_vj[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/rf_qj" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_qj[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_qj[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/rf_vk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_vk[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_vk[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/rf_qk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_qk[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_qk[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/rs0_busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs0_busy</obj_property>
+      <obj_property name="ObjectShortName">rs0_busy</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/rs1_busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs1_busy</obj_property>
+      <obj_property name="ObjectShortName">rs1_busy</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/rs_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_ready</obj_property>
+      <obj_property name="ObjectShortName">rs_ready</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/rs_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_data[72:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_data[72:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/uut/RS0_Module/Registers_Module/busy_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy_out</obj_property>
+      <obj_property name="ObjectShortName">busy_out</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/uut/RS0_Module/Registers_Module/op_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">op_out[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/uut/RS0_Module/Registers_Module/vj_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vj_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vj_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/uut/RS0_Module/Registers_Module/qj_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qj_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">qj_out[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/uut/RS0_Module/Registers_Module/vk_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vk_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vk_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/uut/RS0_Module/Registers_Module/qk_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qk_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">qk_out[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/uut/RS1_Module/Registers_Module/busy_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy_out</obj_property>
+      <obj_property name="ObjectShortName">busy_out</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/uut/RS1_Module/Registers_Module/op_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">op_out[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/uut/RS1_Module/Registers_Module/vj_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vj_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vj_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/uut/RS1_Module/Registers_Module/qj_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qj_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">qj_out[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/uut/RS1_Module/Registers_Module/vk_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vk_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vk_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_logic/uut/RS1_Module/Registers_Module/qk_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qk_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">qk_out[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Thanos/Documents/Xilinx Projects/Processor/Test_RS_Arith_Control_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="test_rs_arith_control" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/test_rs_arith_control/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_control/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_control/rs0_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs0_ready</obj_property>
+      <obj_property name="ObjectShortName">rs0_ready</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_control/rs1_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs1_ready</obj_property>
+      <obj_property name="ObjectShortName">rs1_ready</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_control/rs2_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs2_ready</obj_property>
+      <obj_property name="ObjectShortName">rs2_ready</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_control/cdb_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cdb_q[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cdb_q[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_control/mux_sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mux_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_control/uut/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_control/uut/rs0_waits" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs0_waits</obj_property>
+      <obj_property name="ObjectShortName">rs0_waits</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_control/uut/rs1_waits" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs1_waits</obj_property>
+      <obj_property name="ObjectShortName">rs1_waits</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_control/uut/rs2_waits" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs2_waits</obj_property>
+      <obj_property name="ObjectShortName">rs2_waits</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_control/uut/rs0_available" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs0_available</obj_property>
+      <obj_property name="ObjectShortName">rs0_available</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_control/uut/rs1_available" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs1_available</obj_property>
+      <obj_property name="ObjectShortName">rs1_available</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_control/uut/rs2_available" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs2_available</obj_property>
+      <obj_property name="ObjectShortName">rs2_available</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+</wave_config>

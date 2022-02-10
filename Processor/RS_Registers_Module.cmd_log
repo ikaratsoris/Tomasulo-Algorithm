@@ -1,0 +1,1 @@
+vhdtdtfi -prj Processor -o "C:/Users/Thanos/Documents/Xilinx Projects/Processor/RS_Registers_Module.vhi" -module RS_Registers_Module -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Reg_5.vhd -lib work Reg_4.vhd -lib work Reg_32.vhd -lib work Reg_1.vhd -lib work RS_Registers_Module.vhd 

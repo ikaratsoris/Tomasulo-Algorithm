@@ -1,0 +1,2 @@
+vhdtdtfi -prj Processor -o "C:/Users/Thanos/Documents/Xilinx Projects/Processor/RS_Arith_Control.vhi" -module RS_Arith_Control -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work RS_Arith_Control.vhd 
+vhdtdtfi -prj Processor -o "C:/Users/Thanos/Documents/Xilinx Projects/Processor/RS_Arith_Control.vhi" -module RS_Arith_Control -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work RS_Arith_Control.vhd 

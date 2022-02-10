@@ -1,0 +1,1 @@
+vhdtdtfi -prj Processor -o "C:/Users/Thanos/Documents/Xilinx Projects/Processor/RF_Module.vhi" -module RF_Module -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Reg_5.vhd -lib work Reg_32.vhd -lib work RF_Write_Control.vhd -lib work RF_Registers_Module.vhd -lib work RF_Module.vhd 

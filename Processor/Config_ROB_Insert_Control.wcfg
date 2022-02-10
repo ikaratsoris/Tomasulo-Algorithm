@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Thanos/Documents/Xilinx Projects/Processor/Test_ROB_Insert_Control_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="test_rob_insert_control" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/test_rob_insert_control/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_insert_control/issue_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">issue_wren</obj_property>
+      <obj_property name="ObjectShortName">issue_wren</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_insert_control/issue_tag" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">issue_tag[4:0]</obj_property>
+      <obj_property name="ObjectShortName">issue_tag[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_insert_control/insert_0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">insert_0</obj_property>
+      <obj_property name="ObjectShortName">insert_0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_insert_control/insert_1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">insert_1</obj_property>
+      <obj_property name="ObjectShortName">insert_1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_insert_control/insert_2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">insert_2</obj_property>
+      <obj_property name="ObjectShortName">insert_2</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_insert_control/insert_3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">insert_3</obj_property>
+      <obj_property name="ObjectShortName">insert_3</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_insert_control/insert_4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">insert_4</obj_property>
+      <obj_property name="ObjectShortName">insert_4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_insert_control/insert_5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">insert_5</obj_property>
+      <obj_property name="ObjectShortName">insert_5</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_insert_control/insert_6" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">insert_6</obj_property>
+      <obj_property name="ObjectShortName">insert_6</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_insert_control/insert_7" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">insert_7</obj_property>
+      <obj_property name="ObjectShortName">insert_7</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_insert_control/tail_fifo_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tail_fifo_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tail_fifo_out[2:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+</wave_config>

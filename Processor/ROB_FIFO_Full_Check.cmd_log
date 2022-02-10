@@ -1,0 +1,1 @@
+vhdtdtfi -prj Processor -o "C:/Users/Thanos/Documents/Xilinx Projects/Processor/ROB_FIFO_Full_Check.vhi" -module ROB_FIFO_Full_Check -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ROB_FIFO_Full_Check.vhd 

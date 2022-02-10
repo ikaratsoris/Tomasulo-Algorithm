@@ -1,0 +1,2 @@
+vhdtdtfi -prj Processor -o "C:/Users/Thanos/Documents/Xilinx Projects/Processor/ROB_Dest_Reg_Comparator.vhi" -module ROB_Dest_Reg_Comparator -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ROB_Dest_Reg_Comparator.vhd 
+vhdtdtfi -prj Processor -o "C:/Users/Thanos/Documents/Xilinx Projects/Processor/ROB_Dest_Reg_Comparator.vhi" -module ROB_Dest_Reg_Comparator -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ROB_Dest_Reg_Comparator.vhd 

@@ -1,0 +1,2 @@
+vhdtdtfi -prj Processor -o "C:/Users/Thanos/Documents/Xilinx Projects/Processor/RS_Q_Ready.vhi" -module RS_Q_Ready -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work RS_Q_Ready.vhd 
+vhdtdtfi -prj Processor -o "C:/Users/Thanos/Documents/Xilinx Projects/Processor/RS_Q_Ready.vhi" -module RS_Q_Ready -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work RS_Q_Ready.vhd 

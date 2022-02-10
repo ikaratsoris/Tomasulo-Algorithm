@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Thanos/Documents/Xilinx Projects/Processor/Test_ROB_Remove_Control_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="test_rob_remove_control" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/test_rob_remove_control/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/done_0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done_0</obj_property>
+      <obj_property name="ObjectShortName">done_0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/done_1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done_1</obj_property>
+      <obj_property name="ObjectShortName">done_1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/done_2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done_2</obj_property>
+      <obj_property name="ObjectShortName">done_2</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/done_3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done_3</obj_property>
+      <obj_property name="ObjectShortName">done_3</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/done_4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done_4</obj_property>
+      <obj_property name="ObjectShortName">done_4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/done_5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done_5</obj_property>
+      <obj_property name="ObjectShortName">done_5</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/done_6" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done_6</obj_property>
+      <obj_property name="ObjectShortName">done_6</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/done_7" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done_7</obj_property>
+      <obj_property name="ObjectShortName">done_7</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/remove_0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">remove_0</obj_property>
+      <obj_property name="ObjectShortName">remove_0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/remove_1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">remove_1</obj_property>
+      <obj_property name="ObjectShortName">remove_1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/remove_2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">remove_2</obj_property>
+      <obj_property name="ObjectShortName">remove_2</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/remove_3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">remove_3</obj_property>
+      <obj_property name="ObjectShortName">remove_3</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/remove_4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">remove_4</obj_property>
+      <obj_property name="ObjectShortName">remove_4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/remove_5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">remove_5</obj_property>
+      <obj_property name="ObjectShortName">remove_5</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/remove_6" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">remove_6</obj_property>
+      <obj_property name="ObjectShortName">remove_6</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/remove_7" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">remove_7</obj_property>
+      <obj_property name="ObjectShortName">remove_7</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_remove_control/head_fifo_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">head_fifo_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">head_fifo_out[2:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+</wave_config>

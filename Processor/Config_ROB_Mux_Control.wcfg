@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Thanos/Documents/Xilinx Projects/Processor/Test_ROB_Mux_Control_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="test_rob_mux_control" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/test_rob_mux_control/tail_fifo" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tail_fifo[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tail_fifo[2:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_control/valid_bit_0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_bit_0</obj_property>
+      <obj_property name="ObjectShortName">valid_bit_0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_control/valid_bit_1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_bit_1</obj_property>
+      <obj_property name="ObjectShortName">valid_bit_1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_control/valid_bit_2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_bit_2</obj_property>
+      <obj_property name="ObjectShortName">valid_bit_2</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_control/valid_bit_3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_bit_3</obj_property>
+      <obj_property name="ObjectShortName">valid_bit_3</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_control/valid_bit_4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_bit_4</obj_property>
+      <obj_property name="ObjectShortName">valid_bit_4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_control/valid_bit_5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_bit_5</obj_property>
+      <obj_property name="ObjectShortName">valid_bit_5</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_control/valid_bit_6" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_bit_6</obj_property>
+      <obj_property name="ObjectShortName">valid_bit_6</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_control/valid_bit_7" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_bit_7</obj_property>
+      <obj_property name="ObjectShortName">valid_bit_7</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_control/mux_sel_reg_rob" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mux_sel_reg_rob[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_sel_reg_rob[2:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_control/mux_sel_rob_mem" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mux_sel_rob_mem</obj_property>
+      <obj_property name="ObjectShortName">mux_sel_rob_mem</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+</wave_config>

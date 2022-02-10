@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Thanos/Documents/Xilinx Projects/Processor/Test_RS_Q_Ready_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="test_rs_q_ready" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/test_rs_q_ready/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_q_ready/local_tag" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">local_tag[4:0]</obj_property>
+      <obj_property name="ObjectShortName">local_tag[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_q_ready/cdb_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cdb_q[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cdb_q[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_q_ready/wren_busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren_busy</obj_property>
+      <obj_property name="ObjectShortName">wren_busy</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_q_ready/input_busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">input_busy</obj_property>
+      <obj_property name="ObjectShortName">input_busy</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_q_ready/wren_qj" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren_qj</obj_property>
+      <obj_property name="ObjectShortName">wren_qj</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_q_ready/input_qj" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_qj[4:0]</obj_property>
+      <obj_property name="ObjectShortName">input_qj[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_q_ready/uut/qj_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qj_ready</obj_property>
+      <obj_property name="ObjectShortName">qj_ready</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_q_ready/wren_qk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren_qk</obj_property>
+      <obj_property name="ObjectShortName">wren_qk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_q_ready/input_qk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_qk[4:0]</obj_property>
+      <obj_property name="ObjectShortName">input_qk[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_q_ready/uut/qk_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qk_ready</obj_property>
+      <obj_property name="ObjectShortName">qk_ready</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_q_ready/rs_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_ready</obj_property>
+      <obj_property name="ObjectShortName">rs_ready</obj_property>
+   </wvobject>
+</wave_config>

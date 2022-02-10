@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Thanos/Documents/Xilinx Projects/Processor/Test_Processor_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="test_processor" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/test_processor/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_processor/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_processor/accepted" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">accepted</obj_property>
+      <obj_property name="ObjectShortName">accepted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_processor/uut/Issue_Module/rob_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_full</obj_property>
+      <obj_property name="ObjectShortName">rob_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_processor/exception_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">exception_en</obj_property>
+      <obj_property name="ObjectShortName">exception_en</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_processor/exception_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">exception_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exception_pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_processor/pc_input" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_input[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_input[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_processor/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[19:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[19:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="group54" type="group">
+      <obj_property name="label">Issue</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_processor/uut/Issue_Module/wren" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">wren</obj_property>
+         <obj_property name="ObjectShortName">wren</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/Issue_Module/op" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">op[3:0]</obj_property>
+         <obj_property name="ObjectShortName">op[3:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/Issue_Module/ri" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ri[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ri[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/Issue_Module/rj" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rj[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rj[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/Issue_Module/rk" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rk[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rk[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/Issue_Module/rs_tag" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rs_tag[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rs_tag[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group192" type="group">
+      <obj_property name="label">ROB_RF_MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/cdb_v" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">cdb_v[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cdb_v[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/cdb_q" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">cdb_q[4:0]</obj_property>
+         <obj_property name="ObjectShortName">cdb_q[4:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/arith_excep_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">arith_excep_en</obj_property>
+         <obj_property name="ObjectShortName">arith_excep_en</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/arith_excep_tag" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">arith_excep_tag[4:0]</obj_property>
+         <obj_property name="ObjectShortName">arith_excep_tag[4:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/logic_excep_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">logic_excep_en</obj_property>
+         <obj_property name="ObjectShortName">logic_excep_en</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/logic_excep_tag" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">logic_excep_tag[4:0]</obj_property>
+         <obj_property name="ObjectShortName">logic_excep_tag[4:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/rj_tag" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rj_tag[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rj_tag[4:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/rk_tag" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rk_tag[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rk_tag[4:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/rj_value" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rj_value[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rj_value[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/rk_value" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rk_value[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rk_value[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/excep_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">excep_en</obj_property>
+         <obj_property name="ObjectShortName">excep_en</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/excep_pc" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">excep_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">excep_pc[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group53" type="group">
+      <obj_property name="label">RS_Modules</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_processor/uut/RS_Arith_Module/rs0_busy" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">rs0_busy</obj_property>
+         <obj_property name="ObjectShortName">rs0_busy</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ff00</obj_property>
+         <obj_property name="label">Arith_RS0_Busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/RS_Arith_Module/rs1_busy" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">rs1_busy</obj_property>
+         <obj_property name="ObjectShortName">rs1_busy</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ff00</obj_property>
+         <obj_property name="label">Arith_RS1_Busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/RS_Arith_Module/rs2_busy" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">rs2_busy</obj_property>
+         <obj_property name="ObjectShortName">rs2_busy</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ff00</obj_property>
+         <obj_property name="label">Arith_RS2_Busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/RS_Arith_Module/rs_ready" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">rs_ready</obj_property>
+         <obj_property name="ObjectShortName">rs_ready</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+         <obj_property name="label">Arith_RS_Ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/RS_Arith_Module/rs_data" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">rs_data[72:0]</obj_property>
+         <obj_property name="ObjectShortName">rs_data[72:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="label">Arith_RS_Data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/RS_Logic_Module/rs0_busy" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">rs0_busy</obj_property>
+         <obj_property name="ObjectShortName">rs0_busy</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ff00</obj_property>
+         <obj_property name="label">Logic_RS0_Busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/RS_Logic_Module/rs1_busy" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">rs1_busy</obj_property>
+         <obj_property name="ObjectShortName">rs1_busy</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ff00</obj_property>
+         <obj_property name="label">Logic_RS1_Busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/RS_Logic_Module/rs_ready" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">rs_ready</obj_property>
+         <obj_property name="ObjectShortName">rs_ready</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+         <obj_property name="label">Logic_RS_Ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/RS_Logic_Module/rs_data" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">rs_data[72:0]</obj_property>
+         <obj_property name="ObjectShortName">rs_data[72:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="label">Logic_RS_Data</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group52" type="group">
+      <obj_property name="label">FU_Modules</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_processor/uut/FU_Arith_Module/cdb_request" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">cdb_request</obj_property>
+         <obj_property name="ObjectShortName">cdb_request</obj_property>
+         <obj_property name="label">Arith_FU_Request</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/FU_Arith_Module/cdb_response" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">cdb_response</obj_property>
+         <obj_property name="ObjectShortName">cdb_response</obj_property>
+         <obj_property name="label">Arith_CDB_Response</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/FU_Logic_Module/cdb_request" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">cdb_request</obj_property>
+         <obj_property name="ObjectShortName">cdb_request</obj_property>
+         <obj_property name="label">Logic_FU_Request</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/FU_Logic_Module/cdb_response" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">cdb_response</obj_property>
+         <obj_property name="ObjectShortName">cdb_response</obj_property>
+         <obj_property name="label">Logic_CDB_Response</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group51" type="group">
+      <obj_property name="label">CDB_Module</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_processor/uut/CDB_Module/Control/state" type="other" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+         <obj_property name="label">CDB_Control_State</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#929dff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/CDB_Module/Control/mux_sel" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">mux_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_sel[1:0]</obj_property>
+         <obj_property name="label">CDB_Mux_Sel</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/CDB_Module/arith_tag" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">arith_tag[4:0]</obj_property>
+         <obj_property name="ObjectShortName">arith_tag[4:0]</obj_property>
+         <obj_property name="label">Arith_Tag</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/CDB_Module/logic_tag" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">logic_tag[4:0]</obj_property>
+         <obj_property name="ObjectShortName">logic_tag[4:0]</obj_property>
+         <obj_property name="label">Logic_Tag</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/CDB_Module/ls_tag" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">ls_tag[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ls_tag[4:0]</obj_property>
+         <obj_property name="label">LS_Tag</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/CDB_Module/cdb_q" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">cdb_q[4:0]</obj_property>
+         <obj_property name="ObjectShortName">cdb_q[4:0]</obj_property>
+         <obj_property name="label">CDB.Q</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/CDB_Module/arith_data" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">arith_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">arith_data[31:0]</obj_property>
+         <obj_property name="label">Arith_Data</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/CDB_Module/logic_data" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">logic_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">logic_data[31:0]</obj_property>
+         <obj_property name="label">Logic_Data</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/CDB_Module/ls_data" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">ls_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ls_data[31:0]</obj_property>
+         <obj_property name="label">LS_Data</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/CDB_Module/cdb_v" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">cdb_v[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cdb_v[31:0]</obj_property>
+         <obj_property name="label">CDB.V</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group107" type="group">
+      <obj_property name="label">RF_MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/RF_Memory/ram[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">ram[0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ff00</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/RF_Memory/ram[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">ram[1]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/RF_Memory/ram[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">ram[2]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/RF_Memory/ram[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">ram[3]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/RF_Memory/ram[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">ram[4]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ff00</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/RF_Memory/ram[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">ram[5]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/RF_Memory/ram[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">ram[6]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/RF_Memory/ram[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">ram[7]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/RF_Memory/ram[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">ram[8]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/RF_Memory/ram[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">ram[9]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_processor/uut/ROB_RF_MEM_Module/RF_Memory/ram[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">ram[10]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

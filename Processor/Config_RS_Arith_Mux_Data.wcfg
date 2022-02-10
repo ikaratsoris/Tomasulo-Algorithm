@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Thanos/Documents/Xilinx Projects/Processor/Test_RS_Arith_Mux_Data_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="test_rs_arith_mux_data" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/test_rs_arith_mux_data/sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_mux_data/rs0_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs0_data[72:0]</obj_property>
+      <obj_property name="ObjectShortName">rs0_data[72:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_mux_data/rs1_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs1_data[72:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_data[72:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_mux_data/rs2_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs2_data[72:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_data[72:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rs_arith_mux_data/rs_arith_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_arith_data[72:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_arith_data[72:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+</wave_config>

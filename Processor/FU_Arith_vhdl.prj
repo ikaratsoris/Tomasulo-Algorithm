@@ -1,0 +1,5 @@
+vhdl work "C:\Users\Thanos\Documents\Xilinx Projects\Processor\FU_Req_Control.vhd"
+vhdl work "C:\Users\Thanos\Documents\Xilinx Projects\Processor\FU_Delay_Reg.vhd"
+vhdl work "C:\Users\Thanos\Documents\Xilinx Projects\Processor\FU_Arith_WrEn_Control.vhd"
+vhdl work "C:\Users\Thanos\Documents\Xilinx Projects\Processor\FU_Arith_ALU.vhd"
+vhdl work "C:\Users\Thanos\Documents\Xilinx Projects\Processor\FU_Arith.vhd"

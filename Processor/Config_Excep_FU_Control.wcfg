@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Thanos/Documents/Xilinx Projects/Processor/Test_Excep_FU_Control_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="test_excep_fu_control" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/test_excep_fu_control/excep_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">excep_en</obj_property>
+      <obj_property name="ObjectShortName">excep_en</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/excep_tag" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">excep_tag[4:0]</obj_property>
+      <obj_property name="ObjectShortName">excep_tag[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_pc_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_pc_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_pc_0[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_pc_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_pc_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_pc_1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_pc_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_pc_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_pc_2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_pc_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_pc_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_pc_3[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_pc_4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_pc_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_pc_4[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_pc_5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_pc_5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_pc_5[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_pc_6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_pc_6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_pc_6[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_pc_7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_pc_7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_pc_7[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_tag_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_tag_0[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_tag_0[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_tag_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_tag_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_tag_1[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_tag_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_tag_2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_tag_2[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_tag_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_tag_3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_tag_3[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_tag_4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_tag_4[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_tag_4[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_tag_5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_tag_5[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_tag_5[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_tag_6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_tag_6[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_tag_6[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_tag_7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_tag_7[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_tag_7[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_clear_0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_clear_0</obj_property>
+      <obj_property name="ObjectShortName">rob_clear_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_clear_1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_clear_1</obj_property>
+      <obj_property name="ObjectShortName">rob_clear_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_clear_2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_clear_2</obj_property>
+      <obj_property name="ObjectShortName">rob_clear_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_clear_3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_clear_3</obj_property>
+      <obj_property name="ObjectShortName">rob_clear_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_clear_4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_clear_4</obj_property>
+      <obj_property name="ObjectShortName">rob_clear_4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_clear_5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_clear_5</obj_property>
+      <obj_property name="ObjectShortName">rob_clear_5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_clear_6" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_clear_6</obj_property>
+      <obj_property name="ObjectShortName">rob_clear_6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/rob_clear_7" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_clear_7</obj_property>
+      <obj_property name="ObjectShortName">rob_clear_7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_excep_fu_control/excep_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">excep_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">excep_pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+</wave_config>

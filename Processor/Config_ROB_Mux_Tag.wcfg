@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Thanos/Documents/Xilinx Projects/Processor/Test_ROB_Mux_Tag_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="test_rob_mux_tag" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/test_rob_mux_tag/sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_tag/tag_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tag_0[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_0[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_tag/tag_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tag_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_tag/tag_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tag_2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_tag/tag_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tag_3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_3[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_tag/tag_4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tag_4[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_4[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_tag/tag_5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tag_5[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_5[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_tag/tag_6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tag_6[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_6[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_tag/tag_7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tag_7[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_7[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_mux_tag/mux_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mux_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_out[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+</wave_config>

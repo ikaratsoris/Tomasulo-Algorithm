@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Thanos/Documents/Xilinx Projects/Processor/Test_ROB_Write_Control_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="test_rob_write_control" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/test_rob_write_control/cdb_v" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cdb_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cdb_v[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/cdb_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cdb_q[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cdb_q[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/insert_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">insert_en</obj_property>
+      <obj_property name="ObjectShortName">insert_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/remove_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">remove_en</obj_property>
+      <obj_property name="ObjectShortName">remove_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/instr_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_pc[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/instr_type" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_type[3:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_type[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/instr_dest" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_dest[4:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_dest[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/instr_tag" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_tag[4:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_tag[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/reg_tag" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_tag[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_tag[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/wren_pc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren_pc</obj_property>
+      <obj_property name="ObjectShortName">wren_pc</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/wren_instr_type" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren_instr_type</obj_property>
+      <obj_property name="ObjectShortName">wren_instr_type</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/wren_dest" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren_dest</obj_property>
+      <obj_property name="ObjectShortName">wren_dest</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/wren_value" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren_value</obj_property>
+      <obj_property name="ObjectShortName">wren_value</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/wren_tag" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren_tag</obj_property>
+      <obj_property name="ObjectShortName">wren_tag</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/wren_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren_done</obj_property>
+      <obj_property name="ObjectShortName">wren_done</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/output_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_pc[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/output_instr_type" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_instr_type[3:0]</obj_property>
+      <obj_property name="ObjectShortName">output_instr_type[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/output_dest" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_dest[4:0]</obj_property>
+      <obj_property name="ObjectShortName">output_dest[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/output_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_value[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/output_tag" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_tag[4:0]</obj_property>
+      <obj_property name="ObjectShortName">output_tag[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rob_write_control/output_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">output_done</obj_property>
+      <obj_property name="ObjectShortName">output_done</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+</wave_config>

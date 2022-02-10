@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Thanos/Documents/Xilinx Projects/Processor/Test_FU_Arith_ALU_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="test_fu_arith_alu" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/test_fu_arith_alu/rs_arith_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_arith_ready</obj_property>
+      <obj_property name="ObjectShortName">rs_arith_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_fu_arith_alu/rs_arith_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_arith_data[72:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_arith_data[72:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_fu_arith_alu/uut/tempa" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tempa[32:0]</obj_property>
+      <obj_property name="ObjectShortName">tempa[32:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_fu_arith_alu/uut/tempb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tempb[32:0]</obj_property>
+      <obj_property name="ObjectShortName">tempb[32:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_fu_arith_alu/alu_zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_zero</obj_property>
+      <obj_property name="ObjectShortName">alu_zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_fu_arith_alu/alu_cout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_cout</obj_property>
+      <obj_property name="ObjectShortName">alu_cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_fu_arith_alu/alu_ovf" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_ovf</obj_property>
+      <obj_property name="ObjectShortName">alu_ovf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_fu_arith_alu/alu_v_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_v_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_v_out[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_fu_arith_alu/alu_q_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_q_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_q_out[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+</wave_config>
