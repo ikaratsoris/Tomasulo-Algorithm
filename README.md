@@ -14,5 +14,3 @@ This project is for the course of Computer Architecture. It is developed in VHDL
 ## Processor Design
 <img src="https://github.com/ikaratsoris/Tomasulo-Algorithm/blob/main/Processor_Detailed.png" width="100%">
 <p></p>
-
-## abc
